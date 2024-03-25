@@ -1,4 +1,8 @@
 
+/*  */
+let win = 0;
+let loses = 0;
+let draws= 0;
 
 /* This is a simplified version of the game.
 The Computer ALWAYS picks ROCK.  
