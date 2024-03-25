@@ -1,27 +1,28 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Rock, Paper, Scissors</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Rock, Paper, Scissors</title>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 
 <body>
-  <h1>Rock, Paper or Scissors?</h1>
-  <p> 
-    <span class="circle" onclick="play()">R</span>
-    <span class="circle" onclick="play()">P</span>
-    <span class="circle" onclick="play()">S</span>
-  </p>
-  <a class="instruction" href="https://en.wikipedia.org/wiki/Rock_paper_scissors">RULES</a>
+    <h1>Rock, Paper, or Scissors?</h1>
+    <ul>
+        <li><button onclick="play('rock')">Rock</button></li>
+        <li><button onclick="play('paper')">Paper</button></li>
+        <li><button onclick="play('scissors')">Scissors</button></li>
+    </ul>
+    <a class="instruction" href="https://en.wikipedia.org/wiki/Rock_paper_scissors">RULES</a>
 
-<script>
-  function play() {
-alter("Either Rock or Papper or Scissors was click")    
-  }
-</script>
-
+    <script>
+        function play(choice) {
+            alert("You clicked: " + choice);
+        }
+    </script>
 </body>
 
 </html>
