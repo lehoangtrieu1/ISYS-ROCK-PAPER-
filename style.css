@@ -11,3 +11,13 @@ text-align: center;
   front-size: 60%;
   text-align: left;
 }
+
+/* circle CSS https://www.w3schools.com/howto/howto_css_circles.asp*/
+.circle {
+height: 25px;
+width: 25px;
+color: white;
+background-color: red;
+border-radius: 50%;
+display: inline-block;
+}
